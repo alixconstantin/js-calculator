@@ -96,5 +96,5 @@ while (operateur == "" || operateur == null); // Continue le "do" tant que l'op�
 // *TD* : trouver des erreurs possibles pour intégrer des sécurités supplémentaires
 // *TD* : Transposer le projet comme base d'un autre Repos, en remplacant les informations du prompt par du DOM(Events->Clic) pour une meilleurs UE ( calculette virtuel comme proposé par Google )
 // *TD* : Pousser mon code sur Git plus souvent plutôt que garder mes projets en local... 
-// *TD* : Mettre plus de réplique de Kaameloott et de photo de chat, c'est trop mignon les chats... 
+// *TD* : Mettre plus de réplique de Kaameloott et de photo de chat, c'est trop mignon les chats
 // *TD* : Nettoyer mes TD 
