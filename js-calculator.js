@@ -84,17 +84,15 @@ do {    // Recupération du prompt opérateur, valeur1, valeur2
 
     }
 
-
+    restart = confirm("Souhaitez-vous recommencer un calcul ?"); // On demande grâce à la boîte de dialogue confirm() si l'utilisateur veut recommencer
 
 
 }
-while (operateur == "" || operateur == null); // Continue le "do" tant que l'opérateur est vide ou null 
+while (restart); // Continue le "do" tant que l'opérateur est vide ou null 
 
 // *TD* : un changement du symbole "," par "." automatique pour le prompt2 et 3 (les deux valeurs numérique)
 // Pour ceux qui souhaite calculer des nombres a virgule
-// Pourquoi pas avec une fonction intégrer par js du style replace(), si j'ai la foie, un jours. 
+// Pourquoi pas avec une fonction intégrer par js du style replace() 
 // *TD* : trouver des erreurs possibles pour intégrer des sécurités supplémentaires
-// *TD* : Transposer le projet comme base d'un autre Repos, en remplacant les informations du prompt par du DOM(Events->Clic) pour une meilleurs UE ( calculette virtuel comme proposé par Google )
-// *TD* : Pousser mon code sur Git plus souvent plutôt que garder mes projets en local... 
-// *TD* : Mettre plus de réplique de Kaameloott et de photo de chat, c'est trop mignon les chats
-// *TD* : Nettoyer mes TD 
+// *TD* : Transposer le projet comme base d'un autre Repos, en remplacant les informations du prompt par du DOM ( pour UX UI )
+
